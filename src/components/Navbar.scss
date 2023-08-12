@@ -1,0 +1,36 @@
+.navbar_container {
+  background: #3c2a8d;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2%;
+  top: 0px;
+
+  .portfolio_log_image {
+    margin-right: 4%;
+    a {
+      display: flex;
+      align-items: center;
+    }
+    a > img {
+      width: 20%;
+    }
+  }
+}
+
+.custom-segmented {
+  background: #3c2a8d;
+  color: orange;
+  width: 100%;
+  border-radius: 0px;
+  font-size: 15px;
+  font-weight: 700;
+
+  // margin-right: 4%;
+  // border: 10px solid yellow;
+}
+
+.ant-segmented-item {
+}

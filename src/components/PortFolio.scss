@@ -1,0 +1,11 @@
+.home_container {
+  .navbar_container {
+    position: sticky;
+  }
+  .content_container_portfolio {
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+    margin-top: 0px;
+  }
+}
