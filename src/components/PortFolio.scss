@@ -1,11 +1,15 @@
 .home_container {
+  background: cover;
+  background-size: 100vh 100vh;
+  background: url("https://github.com/sudarshanmane/ReactPortfolio/blob/master/src/Images/animation1.gif?raw=true");
+
   .navbar_container {
     position: sticky;
   }
+
   .content_container_portfolio {
     position: sticky;
     top: 0px;
-    z-index: -1;
     margin-top: 0px;
   }
 }
