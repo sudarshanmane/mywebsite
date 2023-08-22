@@ -14,9 +14,16 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Navigate to={"/welcomeToMyPoRtFoLiO/about"}></Navigate>}
+          element={
+            <Navigate
+              to={"/sudarshan1099/sudarshan1099.github.io/home"}
+            ></Navigate>
+          }
         ></Route>
-        <Route path="/welcomeToMyPoRtFoLiO" element={<PortFolio></PortFolio>}>
+        <Route
+          path="/sudarshan1099/sudarshan1099.github.io/"
+          element={<PortFolio></PortFolio>}
+        >
           <Route path="home" element={<Home></Home>}></Route>
           <Route path="about" element={<About></About>}></Route>
           <Route path="skills" element={<Skills></Skills>}></Route>

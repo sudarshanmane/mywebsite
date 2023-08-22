@@ -20,7 +20,8 @@ const Navbar = () => {
   function changed(value) {
     setSelectedPage(value);
 
-    if (value !== "resume") navigate(`/welcomeToMyPoRtFoLiO/${value}`);
+    if (value !== "resume")
+      navigate(`/sudarshan1099/sudarshan1099.github.io/${value}`);
   }
   return (
     <div className="navbar_container">
