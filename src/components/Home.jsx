@@ -22,6 +22,7 @@ const Home = () => {
           />
         </div>
         <h1> Sudarshan </h1>
+        <h1>Full Stack Web Developer</h1>
 
         <div className="sub_container">
           <Typewriter
@@ -29,15 +30,12 @@ const Home = () => {
             options={{
               strings: [
                 `<div class="wrapper">
-                <h1>FULL STACK WEB DEVELOPER. </h1>
-              </div>`,
-                `<div class="wrapper">
                 <h1>
                   Exploring DSA as a stepping 
                   <br /> 
                   stone into the world of
                   <br /> 
-                   Data Science.
+                  Software Engineer.
                 </h1>
               </div>`,
               ],

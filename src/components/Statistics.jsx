@@ -9,10 +9,13 @@ const Statistics = () => {
       <div className="github_calender">
         <Space direction="vertical">
           <h1> My Github statistics</h1>
-          <img
-            src="https://github-stats-alpha.vercel.app/api?username=sudarshanmane"
-            alt="stat"
-          />
+          <div className="github-statisctic-image-1">
+            {" "}
+            <img
+              src="https://github-stats-alpha.vercel.app/api?username=sudarshanmane"
+              alt="stat"
+            />
+          </div>
 
           <h1>
             <a href="https://github.com/sudarshanmane">@sudarshanmane </a>{" "}
