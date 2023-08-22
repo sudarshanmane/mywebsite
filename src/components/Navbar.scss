@@ -1,5 +1,5 @@
 .navbar_container {
-  background: #3c2a8d;
+  background: #ddf589;
   position: sticky;
   width: 100%;
   display: flex;
@@ -8,6 +8,7 @@
   padding-right: 2%;
   top: 0px;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(219, 121, 198, 0.23) 0px 6px 6px;
 
   .portfolio_log_image {
     margin-right: 4%;
@@ -22,8 +23,8 @@
 }
 
 .custom-segmented {
-  background: #3c2a8d;
-  color: orange;
+  background: #ddf589;
+  color: rgb(17, 17, 17);
   width: 100%;
   border-radius: 0px;
   font-size: 15px;

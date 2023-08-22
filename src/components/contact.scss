@@ -1,0 +1,82 @@
+.contact-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .contact-container-header {
+    box-shadow: rgba(231, 241, 90, 0.25) 0px 13px 27px -5px,
+      rgba(179, 243, 28, 0.3) 0px 8px 16px -8px;
+    border-radius: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    opacity: 0.8;
+    h1 {
+      width: 80%;
+      text-align: center;
+    }
+
+    .contact-main-container {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .contact-links-container {
+        display: flex;
+        flex-direction: column;
+        color: rgb(240, 240, 241);
+
+        .images-container {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          color: white;
+          text-decoration: none;
+          text-decoration: none;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+
+          div {
+            .anticon {
+              font-size: 40px;
+              color: rgba(234, 238, 15, 0.308);
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+      .contact-email-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .ant-form {
+          margin-top: 20px;
+          width: 80%;
+          .ant-input {
+            width: 100%;
+          }
+          .ant-btn {
+            width: 100%;
+            border-radius: 40px;
+          }
+        }
+        h2 {
+          text-align: center;
+          color: rgb(157, 182, 236);
+        }
+      }
+    }
+  }
+}

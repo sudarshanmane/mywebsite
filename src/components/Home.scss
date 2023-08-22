@@ -1,14 +1,13 @@
 .home_content {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: url("https://github.com/sudarshanmane/ReactPortfolio/blob/master/src/Images/animation1.gif?raw=true");
   top: 0px;
 
   .home_content_container {
+    background: url("https://i.pinimg.com/236x/82/85/46/828546ec010b20a0cfd28b48cebb5587.jpg");
     box-shadow: rgba(231, 241, 90, 0.25) 0px 13px 27px -5px,
       rgba(179, 243, 28, 0.3) 0px 8px 16px -8px;
     margin-top: -15%;
@@ -66,17 +65,10 @@
 .Typewriter__cursor {
   display: none;
 }
-// :root {
-//   --color-1: #186cb8;
-//   --color-2: #2a9a9f;
-//   --color-3: #f1b211;
-//   --color-4: #2f3ada;
-//   --color-5: #8be910;
-// }
 
 :root {
   --color-1: #1ceaf5;
-  --color-2: #ec14f3;
+  --color-2: #b10299;
   --color-3: #35f0fa;
   --color-4: #c5da10f5;
   --color-5: #8be910;

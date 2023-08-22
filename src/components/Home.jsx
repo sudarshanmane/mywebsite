@@ -1,7 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import { NavLink, Outlet } from "react-router-dom";
-import { Segmented, Space } from "antd";
 import "./Home.scss";
 import Typewriter from "typewriter-effect";
 import "../Images/animation1.gif";
@@ -35,7 +32,7 @@ const Home = () => {
                   <br /> 
                   stone into the world of
                   <br /> 
-                  Software Engineer.
+                  Software Engineering.
                 </h1>
               </div>`,
               ],

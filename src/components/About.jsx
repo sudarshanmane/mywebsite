@@ -14,7 +14,7 @@ const About = () => {
           />
           <div className="info_container">
             <h1>I'm Sudarshan </h1>
-            <h1>Aspiring Software Engineer</h1>
+            <h1>Aspiring Software Engineering</h1>
             <Divider style={{ borderColor: "teal" }}></Divider>
             <h4 style={{ color: "white" }}>
               A self Motivated and Ambitious Full Stack Developer.
