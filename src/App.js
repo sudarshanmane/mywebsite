@@ -20,10 +20,7 @@ function App() {
             ></Navigate>
           }
         ></Route>
-        <Route
-          path="/sudarshanmane.github.io/ReactPortfolio/"
-          element={<PortFolio></PortFolio>}
-        >
+        <Route path="/ReactPortfolio/" element={<PortFolio></PortFolio>}>
           <Route path="home" element={<Home></Home>}></Route>
           <Route path="about" element={<About></About>}></Route>
           <Route path="skills" element={<Skills></Skills>}></Route>
