@@ -16,12 +16,12 @@ function App() {
           path="/"
           element={
             <Navigate
-              to={"/sudarshan1099/sudarshan1099.github.io/home"}
+              to={"/sudarshanmane.github.io/ReactPortfolio/home"}
             ></Navigate>
           }
         ></Route>
         <Route
-          path="/sudarshan1099/sudarshan1099.github.io/"
+          path="/sudarshanmane.github.io/ReactPortfolio/"
           element={<PortFolio></PortFolio>}
         >
           <Route path="home" element={<Home></Home>}></Route>

@@ -21,7 +21,7 @@ const Navbar = () => {
     setSelectedPage(value);
 
     if (value !== "resume")
-      navigate(`/sudarshan1099/sudarshan1099.github.io/${value}`);
+      navigate(`/sudarshanmane.github.io/ReactPortfolio//${value}`);
   }
   return (
     <div className="navbar_container">
