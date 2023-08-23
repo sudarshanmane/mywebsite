@@ -20,13 +20,12 @@ const Navbar = () => {
   function changed(value) {
     setSelectedPage(value);
 
-    if (value !== "resume")
-      navigate(`/sudarshanmane.github.io/ReactPortfolio//${value}`);
+    if (value !== "resume") navigate(`/ReactPortfolio/${value}`);
   }
   return (
     <div className="navbar_container">
       <Space className="portfolio_log_image">
-        <Link to={"/welcomeToMyPoRtFoLiO/home"}>
+        <Link to={"/ReactPortfolio/home"}>
           <img src={require("../Images/Logo.png")} alt="logo" />
         </Link>
       </Space>
