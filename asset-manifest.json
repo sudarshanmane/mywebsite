@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/home/static/css/main.98afcf66.css",
+    "main.js": "/ReactPortfolio/home/static/js/main.c478fc69.js",
+    "static/js/787.1ed0c42c.chunk.js": "/ReactPortfolio/home/static/js/787.1ed0c42c.chunk.js",
+    "static/media/animation1.gif": "/ReactPortfolio/home/static/media/animation1.9cd39544406898c058e5.gif",
+    "static/media/Logo.png": "/ReactPortfolio/home/static/media/Logo.2bfd4a9d83b108df9b26.png",
+    "static/media/revicons.eot": "/ReactPortfolio/home/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ReactPortfolio/home/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/ReactPortfolio/home/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/ReactPortfolio/home/index.html",
+    "main.98afcf66.css.map": "/ReactPortfolio/home/static/css/main.98afcf66.css.map",
+    "main.c478fc69.js.map": "/ReactPortfolio/home/static/js/main.c478fc69.js.map",
+    "787.1ed0c42c.chunk.js.map": "/ReactPortfolio/home/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98afcf66.css",
+    "static/js/main.c478fc69.js"
+  ]
+}
